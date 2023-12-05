@@ -1,0 +1,23 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "Movie Review",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --experimental-specifier-resolution=node server.js"
+  },
+  "author": "antocrisa <10033094@studenti.uniupo.it>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "page": "^1.11.6",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "sqlite3": "^5.1.6"
+  }
+}
